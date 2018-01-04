@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #007E9E;
+  width: 100%;
+  height: 85px;
+}
+
+nav .container {
+  width: 80%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.nav-brand {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 30px;
+  float: left;
+}
+
+.btn {
+  background-color: #FF5A6A;
+  color: #FFF;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2%;
+}
+
+.btn-sign-up {
+  margin-top: 30px;
+  float: right;
+}
+
+main .title-principal {
+  clear: both;
+  margin-top: 0;
+  padding-top: 100px;
+  color: #FFF;
+  text-align: center;
+  font-size: 3rem;
+}
+
+main .container {
+  background-color: #006181;
+  background-image: url(bg.png), linear-gradient(#006181, #007E9E);
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+
+main .description-principal {
+  color: #FFF;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+.subscribe {
+  margin: 50px auto;
+  width: 300px;
+}
+
+.subscribe input {
+  padding: 9px 12px;
+}
