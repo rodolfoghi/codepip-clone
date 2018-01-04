@@ -31,6 +31,10 @@ nav .container {
   border-radius: 2%;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn-sign-up {
   margin-top: 30px;
   float: right;
@@ -63,9 +67,17 @@ main .description-principal {
 
 .subscribe {
   margin: 50px auto;
-  width: 300px;
+  width: 400px;
+}
+
+.subscribe input,
+.subscribe .btn {
+  vertical-align: middle;
 }
 
 .subscribe input {
   padding: 9px 12px;
+  width: 15rem;
+  border: none;
+  border-radius: 3px;
 }
