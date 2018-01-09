@@ -81,3 +81,18 @@ main .description-principal {
   border: none;
   border-radius: 3px;
 }
+
+@media (max-width: 576px) {
+  .subscribe-email {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subscribe-button {
+    margin: 20px auto;
+    width: 90%;
+    display: block;
+  }
+}
